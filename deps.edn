@@ -1,0 +1,8 @@
+{:paths ["src"]
+ :deps  {org.clj-commons/claypoole {:mvn/version "1.2.2"}}
+
+ :aliases
+ {;; Run with clj -T:build function-in-build
+  :build {:deps       {io.github.clojure/tools.build {:mvn/version "0.10.5"}}
+          :ns-default build}}
+ }
